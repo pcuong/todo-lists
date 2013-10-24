@@ -1,0 +1,19 @@
+[Desktop Entry]
+Type=ControlPanelApplet
+Name=ToDo Lists
+X-logical-id=todolists
+X-translation-catalog=todolistscatalog
+Icon=
+X-Maemo-Service=com.nokia.DuiControlPanel
+X-Maemo-Method=com.nokia.DuiControlPanelIf.appletPage
+X-Maemo-Object-Path=/
+# this has to be identical to the value in Name
+X-Maemo-Fixed-Args=ToDo Lists
+
+[DUI]
+X-DUIApplet-Applet=libdeclarative.so
+
+[DCP]
+Category=Events Feed 
+Order=100
+Part=todolists-feeds-settings.xml
